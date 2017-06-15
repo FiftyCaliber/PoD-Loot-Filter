@@ -1,5 +1,5 @@
 # Path of Diablo Loot Filter
-This is my own version of Synial's Standard Loot Filter **v1.3.5b** for personal use, but of course anyone can use it if they want.
+This is my own version of Synial's Standard Loot Filter **v1.3.5b** intended for personal use, but of course anyone can else use it if they would like to.
 
 #### Differences
 * Healing Potions all changed from `Heal` to `Life`.
