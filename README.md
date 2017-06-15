@@ -15,4 +15,4 @@ This is my own version of Synial's Standard Loot Filter **v1.3.5b** intended for
 
 #### Minor Fixes
 * Socket display was not showing on some Necromancer Heads, Sorceress Orbs, Wands, Staves, and Scepters.
-* Non-magic socketed `Greater Claws` and `Suwayyah` were showing up as blue text.
+* Non-magic 0 and 3 socketed `Greater Claws` and `Suwayyah` were showing up as blue text.
