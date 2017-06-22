@@ -358,8 +358,8 @@ ItemDisplay[SET]: %NAME%
 ItemDisplay[MAG amu ILVL=85]: %BLUE%%NAME%
 ItemDisplay[MAG amu ILVL=86]: %BLUE%%NAME%
 ItemDisplay[MAG amu ILVL=87]: %BLUE%%NAME%
-ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
-ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
+ItemDisplay[MAG amu ILVL=88]: %BLUE%%NAME%
+ItemDisplay[MAG amu ILVL=89]: %BLUE%%NAME%
 ItemDisplay[MAG amu ILVL=90]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG amu ILVL=91]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[MAG amu ILVL=92]: %BLUE%%NAME% %ORANGE%[L%ILVL%]
