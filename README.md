@@ -14,6 +14,7 @@ This is my own version of Synial's Standard Loot Filter **v1.3.5b** intended for
 * Grand Charms with the iLvl of 91 or higher now display it in red text after the name. Example: `Grand Charm [L99]`
 * Non-socketed Paladin shields are no longer green unless 40+ all res.
 * Unid Skin of the Vipermagi and The Grandfather are now red.
+* Not using the advanced version because I have no plans to craft anything other then Caster Amulets, however iLvl 88+ Magic Amulets now show their iLvl in orange after their name.
 
 #### Minor Fixes
 * Socket display was not showing on some Necromancer Heads, Sorceress Orbs, Wands, Staves, and Scepters.
