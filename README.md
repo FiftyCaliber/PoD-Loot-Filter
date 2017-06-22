@@ -12,7 +12,11 @@ This is my own version of Synial's Standard Loot Filter **v1.3.5b** intended for
 * Hardcoded rune number to each rune name. Example: `El [01]`
 * Gold shown changed from 4000+ to 5000+.
 * Grand Charms with the iLvl of 91 or higher now display it in red text after the name. Example: `Grand Charm [L99]`
+* Non-socketed Paladin shields are no longer green unless 40+ all res.
+* Unid Skin of the Vipermagi and The Grandfather are now red.
 
 #### Minor Fixes
 * Socket display was not showing on some Necromancer Heads, Sorceress Orbs, Wands, Staves, and Scepters.
-* Non-magic 0 and 3 socketed `Greater Claws` and `Suwayyah` were showing up as blue text.
+* Non-magic 0 and 3 socketed `Greater Claws` and `Suwayyah` no longer blue.
+* Ethereal `Shillelah` and `Archon Staff` no longer show up green except for runeword capable bases as intended.
+* `Light Plate` and `Mage Plate` now display if they are Ethereal.
