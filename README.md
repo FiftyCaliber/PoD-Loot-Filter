@@ -18,5 +18,5 @@ This is my own version of Synial's Standard Loot Filter **v1.3.5b** intended for
 #### Minor Fixes
 * Socket display was not showing on some Necromancer Heads, Sorceress Orbs, Wands, Staves, and Scepters.
 * Non-magic 0 and 3 socketed `Greater Claws` and `Suwayyah` no longer blue.
-* Ethereal `Shillelah` and `Archon Staff` no longer show up green except for runeword capable bases as intended.
+* Ethereal `Shillelah` and `Archon Staff` no longer show up green except for runeword compatible bases as intended.
 * `Light Plate` and `Mage Plate` now display if they are Ethereal.
