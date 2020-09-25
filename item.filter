@@ -17,8 +17,8 @@ ItemDisplay[hp5]: %RED%!%WHITE%HP+%RED%!
 ItemDisplay[mp1 CLVL<16]: %BLUE%!%WHITE%Minor Mana%BLUE%!
 ItemDisplay[mp2 CLVL<21]: %BLUE%!%WHITE%Light Mana%BLUE%!
 ItemDisplay[mp3 CLVL<27]: %BLUE%!%WHITE%Mana%BLUE%!
-ItemDisplay[mp4]: %BLUE%!%WHITE%MP+%BLUE%!
-ItemDisplay[mp5]: %BLUE%!%WHITE%MP%BLUE%!
+ItemDisplay[mp4]: %BLUE%!%WHITE%MP%BLUE%!
+ItemDisplay[mp5]: %BLUE%!%WHITE%MP+%BLUE%!
 ItemDisplay[(hp1 OR hp2 OR hp3 OR hp4) CLVL>0]:
 ItemDisplay[(mp1 OR mp2 OR mp3) CLVL>0]:
 //Essences (Respec Token)
