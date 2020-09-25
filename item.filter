@@ -251,6 +251,8 @@ ItemDisplay[cm1 UNI !ID]: %PURPLE%¤¤¤¤¤ %GOLD%Annihilus %PURPLE%¤¤¤¤¤
 ItemDisplay[cm2 UNI !ID]: %PURPLE%¤¤¤¤¤ %GOLD%Hellfire Torch %PURPLE%¤¤¤¤¤
 ItemDisplay[cm3 UNI !ID]: %PURPLE%¤¤¤ %GOLD%Gheed's Fortune %PURPLE%¤¤¤
 //Grand
+ItemDisplay[cm3 MAG !ID ILVL>90]: %BLUE%¤ %NAME% %GREEN%[L%ILVL%]%BLUE% ¤
+ItemDisplay[cm3 MAG ILVL>90]: %NAME% %GREEN%[L%ILVL%]
 ItemDisplay[cm3 MAG !ID ILVL>77]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
 ItemDisplay[cm3 MAG ILVL>77]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[cm3 MAG !ID ILVL<78 ILVL>49]: %BLUE%¤ %NAME% %WHITE%[L%ILVL%]%BLUE% ¤
@@ -261,7 +263,9 @@ ItemDisplay[cm1 MAG !ID ILVL=47]: %BLUE%¤ %NAME% %ORANGE%[L%ILVL%]%BLUE% ¤
 ItemDisplay[cm1 MAG ILVL=47]: %NAME% %ORANGE%[L%ILVL%]
 ItemDisplay[cm1 MAG ILVL>89]: %NAME% %ORANGE%[L%ILVL%]
 //
-ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+//ItemDisplay[!UNI (cm1 OR cm2 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm1 OR cm3)]: %NAME%%WHITE% [L%ILVL%]
+ItemDisplay[!UNI (cm2) CLVL<61]: %NAME%%WHITE% [L%ILVL%]
 //Amulets
 ItemDisplay[amu MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
 ItemDisplay[amu MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 92+]
@@ -277,17 +281,17 @@ ItemDisplay[amu MAG ILVL=98]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[amu MAG ILVL=99]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
 ItemDisplay[amu MAG ILVL<88]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Rings
-ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
-ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
-ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
-ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 80+]
-ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
-ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
-ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
-ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
-ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
-ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
+//ItemDisplay[rin MAG ILVL=86]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+//ItemDisplay[rin MAG ILVL=87]: %BLUE%%NAME%%ORANGE% [CLVL 84+]
+//ItemDisplay[rin MAG ILVL=88]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+//ItemDisplay[rin MAG ILVL=89]: %BLUE%%NAME%%ORANGE% [CLVL 82+]
+//ItemDisplay[rin MAG ILVL=90]: %BLUE%%NAME%%ORANGE% [CLVL 80+]
+//ItemDisplay[rin MAG ILVL=91]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+//ItemDisplay[rin MAG ILVL=92]: %BLUE%%NAME%%ORANGE% [CLVL 78+]
+//ItemDisplay[rin MAG ILVL=93]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+//ItemDisplay[rin MAG ILVL=94]: %BLUE%%NAME%%ORANGE% [CLVL 76+]
+//ItemDisplay[rin MAG ILVL>94]: %BLUE%%NAME%%ORANGE% [CLVL 74+]
+//ItemDisplay[rin MAG ILVL<86]: %BLUE%%NAME%%WHITE% [L%ILVL%]
 //Jewels
 ItemDisplay[MAG !ID jew]: %BLUE%¤ %NAME% ¤
 ItemDisplay[MAG jew]: %BLUE%%NAME%%WHITE% [L%ILVL%]
@@ -1632,20 +1636,6 @@ ItemDisplay[(WP3 OR WP5 OR WP6) TABSK34=2]: %NAME% %YELLOW%+2 Warcries Skills
 //ItemDisplay[(uvc OR zvb) MAG ILVL>84]: %ORANGE%Caster Belt %WHITE%[L%ILVL%]
 //Blood Belts (Mithril Coil/Mesh Belt) + TAL + RUBY + JEWEL
 //ItemDisplay[(umc OR zmb) MAG ILVL>84]: %ORANGE%Blood Belt %WHITE%[L%ILVL%]
-
-////SUPERIOR ED VALUES
-ItemDisplay[SUP ED=15]: %NAME%%GOLD%[15%]%CONTINUE%
-ItemDisplay[SUP ED=14]: %NAME%%GOLD%[%BLUE%14%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=13]: %NAME%%GOLD%[%BLUE%13%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=12]: %NAME%%GOLD%[%BLUE%12%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=11]: %NAME%%GOLD%[%WHITE%11%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=10]: %NAME%%GOLD%[%WHITE%10%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=9]: %NAME%%GOLD%[%GRAY%9%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=8]: %NAME%%GOLD%[%GRAY%8%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=7]: %NAME%%GOLD%[%GRAY%7%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=6]: %NAME%%GOLD%[%GRAY%6%%GOLD%]%CONTINUE%
-ItemDisplay[SUP ED=5]: %NAME%%GOLD%[%GRAY%5%%GOLD%]%CONTINUE%
-
 ////ARMOR BASES
 ///EQ1/EQ7 HELMS
 //Demonhead, Bone Visage, Diadem
