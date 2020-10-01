@@ -337,7 +337,7 @@ ItemDisplay[xhl UNI !ID ETH]: %GRAY%ETH %TAN%Darksight Helm
 ItemDisplay[xhm UNI !ID !ETH]: %TAN%¤ Valkyrie Wing ¤
 ItemDisplay[xhm UNI !ID ETH]: %GRAY%ETH %TAN%Valkyrie Wing
 //Blackhorn's Face
-ItemDisplay[xsk UNI !ID !ETH]: %TAN% Blackhorn's Face
+ItemDisplay[xsk UNI !ID !ETH]: %TAN%Blackhorn's Face
 ItemDisplay[xsk UNI !ID ETH]: %GRAY%ETH %TAN%Blackhorn's Face
 //Crown of Thieves
 ItemDisplay[xrn UNI !ID !ETH]: %TAN%¤ Crown of Thieves ¤
